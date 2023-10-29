@@ -3,7 +3,7 @@
 import React, { isValidElement } from "react";
 import { useRouter } from "next/navigation";
 
-const Pricingplans = () => {
+const Pricingplans = (): React.ReactNode => {
   const { push } = useRouter();
 
   const plans = [
