@@ -1,9 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[278],{1599:function(e,t,r){Promise.resolve().then(r.bind(r,4262))},4262:function(e,t,r){"use strict";r.r(t),r.d(t,{default:function(){return chatbot_page}});var n=r(7437),o=r(2265),components_Chatbot=()=>{let[e,t]=(0,o.useState)(),r=(0,o.useRef)(null);return(0,n.jsxs)("div",{children:[(0,n.jsx)("div",{className:" border-black border-[2px] h-[250px] w-[250px] p-3",children:(0,n.jsx)("p",{children:e})}),(0,n.jsxs)("form",{onSubmit:e=>{e.preventDefault();let t=new FormData(e.currentTarget),n=t.get("message");r.current&&(r.current.value=""),console.log(n)},className:" flex",children:[(0,n.jsx)("input",{name:"message",type:"text",placeholder:"Type...",ref:r}),(0,n.jsx)("button",{type:"submit",className:" bg-blue-400 p-4",children:"Send"})]})]})},chatbot_page=()=>(0,n.jsx)("div",{children:(0,n.jsx)(components_Chatbot,{})})},622:function(e,t,r){"use strict";/**
- * @license React
- * react-jsx-runtime.production.min.js
- *
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var n=r(2265),o=Symbol.for("react.element"),s=(Symbol.for("react.fragment"),Object.prototype.hasOwnProperty),c=n.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,u={key:!0,ref:!0,__self:!0,__source:!0};function q(e,t,r){var n,a={},l=null,i=null;for(n in void 0!==r&&(l=""+r),void 0!==t.key&&(l=""+t.key),void 0!==t.ref&&(i=t.ref),t)s.call(t,n)&&!u.hasOwnProperty(n)&&(a[n]=t[n]);if(e&&e.defaultProps)for(n in t=e.defaultProps)void 0===a[n]&&(a[n]=t[n]);return{$$typeof:o,type:e,key:l,ref:i,props:a,_owner:c.current}}t.jsx=q,t.jsxs=q},7437:function(e,t,r){"use strict";e.exports=r(622)}},function(e){e.O(0,[971,472,744],function(){return e(e.s=1599)}),_N_E=e.O()}]);

@@ -1,10 +1,10 @@
 "use client";
 
 import React from "react";
-import Workflow from "../app/assets/wix images/Artboard 48 copy 4_5x-100.webp";
-import AllInOne from "../app/assets/wix images/Artboard 48 copy 5_5x-100.webp";
-import CustomerSupport from "../app/assets/wix images/Artboard 48 copy 6_5x-100.webp";
-import SmartAutomationTools from "../app/assets/wix images/Artboard 48 copy 7_5x-100.webp";
+import Workflow from "../app/assets/wix images/secondsec-photo1.jpg";
+import AllInOne from "../app/assets/wix images/secondsec-photo2.jpg";
+import CustomerSupport from "../app/assets/wix images/secondsec-photo3.jpg";
+import SmartAutomationTools from "../app/assets/wix images/secondsec-photo4.jpg";
 import Image, { StaticImageData } from "next/image";
 
 
